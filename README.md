@@ -23,4 +23,7 @@ Used Common Commands:
 
 My commands:
 
-- For more functionality open with Gnome-builder, org.gnome.Builder
+- To open the current project in Gnome Builder from VS code
+```flatpak run org.gnome.Builder . --editor```
+
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=gnome-builder org.gnome.Builder  --editor
