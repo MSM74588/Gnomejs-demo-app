@@ -27,3 +27,7 @@ My commands:
 ```flatpak run org.gnome.Builder . --editor```
 
 /usr/bin/flatpak run --branch=stable --arch=x86_64 --command=gnome-builder org.gnome.Builder  --editor
+
+Small Notes:
+
+- For some reason, Gtk refuses to launch from VS code integrated terminal, or terminal opened from VS code instance, instead, cd in to the working directory from a new terminal 

@@ -1,11 +1,13 @@
 import Gtk from "gi://Gtk";
+// import Adw from 'gi://Adw';
 import GObject from "gi://GObject";
 
 export const FbrApplication = GObject.registerClass(
   {
     GTypeName: "FbrApplication",
   },
-  class extends Gtk.Application {
+  // class extends Gtk.Application {
+  class extends Adw.Application {
     vfunc_activate() {
       // console.log('Hello World!');
 
