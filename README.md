@@ -31,3 +31,5 @@ My commands:
 Small Notes:
 
 - For some reason, Gtk refuses to launch from VS code integrated terminal, or terminal opened from VS code instance, instead, cd in to the working directory from a new terminal 
+
+- Gnome builder run the application with sudo privilege it seems, so for native looks run from terminal

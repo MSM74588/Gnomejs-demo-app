@@ -1,0 +1,18 @@
+/* window { */
+	/* background-color: rgb(255, 72, 0); */
+    /* padding: 10px; */
+/* } */
+
+/* {
+    outline: 1px solid #ffffff40;
+} */
+
+welcome {
+	border-spacing: 18px;
+	margin: 60px 0 60px 0;
+}
+
+welcome.big > label {
+	font-size: 1.4em;
+	font-weight: bold;
+}
