@@ -41,7 +41,7 @@ export const WelcomeWidget = GObject.registerClass({
 	}
 
     onButtonClicked(_button) {
-		// console.log('Button clicked!');
+		console.log('Button clicked!');
         this.emit('button-clicked');
 	}
 });

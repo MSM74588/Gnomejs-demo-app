@@ -28,7 +28,7 @@
 								<style>
 									<class name="big" />
 								</style>
-								<signal name="button-clicked" handler="onWelcomeButtonClicked"/>
+								<!-- <signal name="button-clicked" handler="onWelcomeButtonClicked"/> -->
 								<!-- when the button which is this object's child (it will trigger button-clicked event), it will trigger this handler -->
 							</object>
 						</property>
