@@ -4,6 +4,7 @@
         <file>ui/WelcomeWidget.ui</file>
         <file>ui/Window.ui</file>
         <file>ui/FilesView.ui</file>
+        <file>ui/FileListItem.ui</file>
         <file>css/style.css</file>
     </gresource>
 
