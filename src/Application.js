@@ -13,8 +13,8 @@ export const FbrApplication = GObject.registerClass(
   {
     GTypeName: "FbrApplication",
   },
-  class extends Gtk.Application {
-    // class extends Adw.Application {
+  // class extends Gtk.Application {
+  class extends Adw.Application {
 
     vfunc_startup() {
       super.vfunc_startup();
