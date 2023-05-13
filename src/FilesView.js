@@ -6,7 +6,7 @@ import GLib from 'gi://GLib';
 import { File } from './File.js';
 
 export const FilesView = GObject.registerClass({
-    GType: 'FbrFilesView',
+    GTypeName: 'FbrFilesView',
     Template: 'resource:///org/example/filebrowser/ui/FilesView.ui',
     Properties: {
 		files: GObject.ParamSpec.object(

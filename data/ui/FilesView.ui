@@ -18,8 +18,7 @@
                         </property>
                         <property name="factory">
                             <object class="GtkBuilderListItemFactory">
-                                <property name="resource">
-                                    /org/example/filebrowser/ui/FileListItem.ui</property>
+                                <property name="resource">/org/example/filebrowser/ui/FileListItem.ui</property>
                             </object>
                         </property>
                     </object>

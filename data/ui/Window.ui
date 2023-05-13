@@ -40,7 +40,7 @@
 						<property name="name">files</property>
 						<property name="title">Files</property>
 						<property name="child">
-							<object class="FbrFilesView"></object>
+							<object class="FbrFilesView" />
 						</property>
 					</object>
 				</child>
