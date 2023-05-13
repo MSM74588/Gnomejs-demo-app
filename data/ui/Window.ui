@@ -40,9 +40,7 @@
 						<property name="name">files</property>
 						<property name="title">Files</property>
 						<property name="child">
-							<object class="GtkLabel">
-								<property name="label">We will display files here</property>
-							</object>
+							<object class="FbrFilesView"></object>
 						</property>
 					</object>
 				</child>

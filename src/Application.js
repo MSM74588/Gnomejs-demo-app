@@ -4,6 +4,7 @@ import GObject from "gi://GObject";
 import Gdk from "gi://Gdk";
 
 import "./WelcomeWidget.js";
+import './FilesView.js';
 // IMPORT WIDGET, so GObject is aware of their existence
 
 import { Window } from "./Window.js";

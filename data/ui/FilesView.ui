@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+	<template class="FbrFilesView">
+		<property name="layout-manager">
+			<object class="GtkBinLayout"/>
+		</property>
+	</template>
+</interface>
