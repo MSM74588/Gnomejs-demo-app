@@ -12,8 +12,18 @@
                         <property name="enable-rubberband">true</property>
                         <property name="model">
                             <object class="GtkMultiSelection">
-                                <property name="model" bind-source="FbrFilesView"
-                                    bind-property="files" />
+                                <property name="model">
+                                    <object class="GtkSortListModel">
+                                        <property name="model" bind-source="FbrFilesView" bind-property="files" />
+                                        <property name="sorter">
+                                            <object class="GtkStringSorter">
+                                                <property name="expression">
+                                                    <lookup name="name" type="FbrFile" />
+                                                </property>
+                                            </object>
+                                        </property>
+                                    </object>
+                                </property>
                             </object>
                         </property>
                         <property name="factory">
